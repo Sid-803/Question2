@@ -30,7 +30,7 @@ public class Driver {
 				
 			}
 		}
-		if(sum>0) {
+		if(sum<0) {
 			System.out.println("Payment not possible");
 		}else {
 			System.out.println("Payment possible with minimum note count");
