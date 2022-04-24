@@ -18,7 +18,7 @@ public class Driver {
 		
 		MergeSort.display(denoms);
 		MergeSort.mergeSort(denoms,0,denoms.length-1);
-		System.out.print("Sorted array ");
+		System.out.println("Sorted array ");
 		MergeSort.display(denoms);
 		
 		int ct[] = new int[denoms.length];
